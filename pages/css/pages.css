@@ -18,82 +18,292 @@ img {
 /* Voeg jouw css hieraan toe */
 
 /* NAVIGATION */
-#nav{
-    background-color: #E0E0E0
-}
+    #nav{
+        background-color: #e7e7e7
+    }
 
-#nav-wrapper{
-    width: 960px;
-    margin: 0 auto;
-    text-align: left;
+    #nav-wrapper{
+        width: 960px;
+        margin: 0 auto;
+        text-align: left;
 
-}
+    }
 
-#nav ul{
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    position: relative;
-    display: flex;
-    justify-content: space-around;
-}
+    #nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
 
-#nav ul li{
-    display: inline-block;
-}
+    #nav ul li{
+        display: inline-block;
+    }
 
-#nav ul li:hover{
-    background-color: #FAFAFA;
-    padding: 0 20px;
-    transition: 0.5s;
-}
+    #nav ul li:hover{
+        background-color: #FAFAFA;
+        padding: 0 20px;
+        transition: 0.5s;
+    }
 
-#nav ul li a{
-    display: block;
-    color: #ccc;
-    padding: 15px;
-    text-decoration: none;
-}
+    #nav ul li a{
+        display: block;
+        color: #1c1a37;
+        padding: 15px;
+        text-decoration: none;
+    }
 
-#nav ul li a:hover{
-    color: pink;
-}
+    #nav ul li a:hover{
+        color: #d5564d;
+        transition: 0.2s;
+    }
 
-#nav ul li:hover ul {
-    display: block;
-    transition: 5s;
-}
+    #nav ul li:hover ul {
+        display: block;
+        transition: 5s;
+    }
 
-#nav ul ul{
-    display: none;
-    position: absolute;
-    background-color: #333;
-}
+    #nav ul ul{
+        display: none;
+        position: absolute;
+        background-color: #e7e7e7;
+        border-left: 3px #d5564d solid;
+    }
 
-#nav ul ul li a{
-    color: #ccc;
-}
+    #nav ul ul li a{
+        color: #1c1a37;
+    }
 
-#nav ul ul li{
-    display: block;
-}
+    #nav ul ul li{
+        display: block;
+    }
 
-/* iconen */
+    /* iconen */
+        div.iconAcount{
+            width: 15px;
+            height: 23px;
+            background-image: url(../images/iconen/acount1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 3px;
+        }
+
+        #nav ul li:hover div.iconAcount{
+            background-image: url(../images/iconen/acount2.png);
+            transition: 1s;
+        }
+
+        div.iconFilm{
+            width: 23px;
+            height: 15px;
+            background-image: url(../images/iconen/film1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 6px;
+        }
+
+        #nav ul li:hover div.iconFilm{
+            background-image: url(../images/iconen/film2.png);
+            transition: 1s;
+        }
+
+        div.iconAgenda{
+            width: 20px;
+            height: 17px;
+            background-image: url(../images/iconen/agenda1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+
+        #nav ul li:hover div.iconAgenda{
+            background-image: url(../images/iconen/agenda2.png);
+            transition: 1s;
+        }
+
+        div.iconTickets{
+            width: 18px;
+            height: 23px;
+            background-image: url(../images/iconen/tickets1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        #nav ul li:hover div.iconTickets{
+            background-image: url(../images/iconen/tickets2.png);
+            transition: 1s;
+        }
+
+        div.iconLocatie{
+            width: 15px;
+            height: 23px;
+            background-image: url(../images/iconen/locatie1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        #nav ul li:hover div.iconLocatie{
+            background-image: url(../images/iconen/locatie2.png);
+            transition: 1s;
+        }
+
+        div.iconActies{
+            width: 20px;
+            height: 23px;
+            background-image: url(../images/iconen/Promotie1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        #nav ul li:hover div.iconActies{
+            background-image: url(../images/iconen/Promotie2.png);
+            transition: 1s;
+        }
+
+        div.iconContact{
+            width: 20px;
+            height: 23px;
+            background-image: url(../images/iconen/contact1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        #nav ul li:hover div.iconContact{
+            background-image: url(../images/iconen/contact2.png);
+            transition: 1s;
+        }
+
+        div.iconFilmVandaag{
+            width: 15px;
+            height: 23px;
+            background-image: url(../images/iconen/vandaag.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        #nav ul ul li:hover div.iconFilmVandaag{
+            background-image: url(../images/iconen/vandaag2.png);
+            transition: 1s;
+        }
+
+        div.iconFilmAndere{
+            width: 15px;
+            height: 23px;
+            background-image: url(../images/iconen/morgen1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        #nav ul ul li:hover div.iconFilmAndere{
+            background-image: url(../images/iconen/morgen2.png);
+            transition: 1s;
+        }
+
+        div.iconAgendaOpening{
+            width: 20px;
+            height: 20px;
+            background-image: url(../images/iconen/opening1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        #nav ul ul li:hover div.iconAgendaOpening{
+            background-image: url(../images/iconen/opening2.png);
+            transition: 1s;
+        }
+
+        div.iconAgendaPlanning{
+            width: 20px;
+            height: 20px;
+            background-image: url(../images/iconen/planning1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        #nav ul ul li:hover div.iconAgendaPlanning{
+            background-image: url(../images/iconen/planning2.png);
+            transition: 1s;
+        }
+
+        div.iconTicketsVoorstelling{
+            width: 20px;
+            height: 20px;
+            background-image: url(../images/iconen/tickets1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        #nav ul ul li:hover div.iconTicketsVoorstelling{
+            background-image: url(../images/iconen/tickets2.png);
+            transition: 1s;
+        }
+
+        div.iconTicketsAfterparty{
+            width: 20px;
+            height: 20px;
+            background-image: url(../images/iconen/afterparty1.png);
+            background-size: 100%;
+            background-repeat: no-repeat;
+            float: left;
+            margin-right: 10px;
+            margin-top: 4px;
+        }
+
+        #nav ul ul li:hover div.iconTicketsAfterparty{
+            background-image: url(../images/iconen/afterparty2.png);
+            transition: 1s;
+        }
+            
 
 /* BUTTON */
-a.btn {
-    border-top: 4px solid #E43A72;
-    border-bottom: 4px solid #E43A72;
-    color: #E43A72;
-    text-decoration: none;
-    padding: 8px 50px 8px 20px;
-    font-family: montserrat;
-    font-weight: bold;
-    
-}
+    a.btn {
+        border-top: 4px solid #d5564d;
+        border-bottom: 4px solid #d5564d;
+        color: #d5564d;
+        text-decoration: none;
+        padding: 8px 50px 8px 20px;
+        font-family: montserrat;
+        font-weight: bold;
+        
+    }
 
-a.btn:hover {
-    border-top: 4px dotted #E43A72;
-    border-bottom: 4px dotted #E43A72;
+    a.btn:hover {
+        border-top: 4px dotted #d5564d;
+        border-bottom: 4px dotted #d5564d;
 
-}
+    }
