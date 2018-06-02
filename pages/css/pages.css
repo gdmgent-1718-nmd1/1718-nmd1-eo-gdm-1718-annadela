@@ -16,3 +16,84 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+/* NAVIGATION */
+#nav{
+    background-color: #E0E0E0
+}
+
+#nav-wrapper{
+    width: 960px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+#nav ul li{
+    display: inline-block;
+}
+
+#nav ul li:hover{
+    background-color: #FAFAFA;
+    padding: 0 20px;
+    transition: 0.5s;
+}
+
+#nav ul li a{
+    display: block;
+    color: #ccc;
+    padding: 15px;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{
+    color: pink;
+}
+
+#nav ul li:hover ul {
+    display: block;
+    transition: 5s;
+}
+
+#nav ul ul{
+    display: none;
+    position: absolute;
+    background-color: #333;
+}
+
+#nav ul ul li a{
+    color: #ccc;
+}
+
+#nav ul ul li{
+    display: block;
+}
+
+/* iconen */
+
+/* BUTTON */
+a.btn {
+    border-top: 4px solid #E43A72;
+    border-bottom: 4px solid #E43A72;
+    color: #E43A72;
+    text-decoration: none;
+    padding: 8px 50px 8px 20px;
+    font-family: montserrat;
+    font-weight: bold;
+    
+}
+
+a.btn:hover {
+    border-top: 4px dotted #E43A72;
+    border-bottom: 4px dotted #E43A72;
+
+}
